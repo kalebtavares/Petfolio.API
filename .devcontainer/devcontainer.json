@@ -1,12 +1,15 @@
 {
-	"name": "Petfolio.API",
+	"name": "Petfolio",
 	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-dotnettools.csharp",
 				"ms-dotnettools.csdevkit",
-				"ms-dotnettools.vscode-dotnet-runtime"
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"kreativ-software.csharpextensions",
+				"gaoshan0621.csharp-format-usings",
+				"ms-azuretools.vscode-containers"
 			],
 			"settings": {
 				"editor.formatOnSave": true
